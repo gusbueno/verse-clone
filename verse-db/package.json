@@ -1,0 +1,22 @@
+{
+  "name": "verse-db",
+  "version": "1.0.0",
+  "description": "Simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusbueno/verse-clone.git"
+  },
+  "author": "Gustavo Bueno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gusbueno/verse-clone/issues"
+  },
+  "homepage": "https://github.com/gusbueno/verse-clone#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
