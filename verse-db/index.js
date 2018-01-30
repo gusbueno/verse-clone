@@ -13,7 +13,7 @@ module.exports = async function(config) {
     AgentModel.hasMany(MetricModel);
     MetricModel.belongsTo(AgenModel);
 
-    await sequelize.authenticate(); // check if db was successfully created
+    await sequelize.authenticate(); // check if db is configured correctly
 
     const Agent = {};
     const Metric = {};
