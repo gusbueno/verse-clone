@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "standard",
     "setup": "DEBUG=verseclone:* node setup.js",
-    "test": "DEBUG=verseclone:* ava tests/ --verbose"
+    "test": "DEBUG=verseclone:* nyc --reporter=lcov ava tests/ --verbose"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/gusbueno/verse-clone#readme",
   "devDependencies": {
     "ava": "^0.25.0",
+    "nyc": "^11.4.1",
     "sqlite3": "^3.1.13",
     "standard": "^10.0.3"
   },
